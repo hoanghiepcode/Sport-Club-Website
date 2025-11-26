@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panasonic Panthers</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap" rel="stylesheet"/>
+    
+    <!-- ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home-section">Home</a></li>
+          <li><a href="#club-section">Club</a></li>
+          <li><a href="#shop-section">Market</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+          <li class="nav_more">
+            <a href="">More</a>
+            <i class="fa-solid fa-caret-down"></i>
+            <div class="nav_more_items">
+              <a href="#home-section">Match</a>
+              <a href="#home-section">Ticket</a>
+              <a href="#home-section">Event</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav_search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <section class="carousel" id="home-section">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/home1.png" class="d-block w-100" alt="..."/>
+            <div class="carousel-caption d-none d-md-block">
+              <h2>PANASONIC PANTHERS</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/home2.jpg" class="d-block w-100" alt="..."/>
+            <div class="carousel-caption d-none d-md-block">
+              <h2>SEASON 2025-2026</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/home3.png" class="d-block w-100" alt="..."/>
+            <div class="carousel-caption d-none d-md-block">
+              <h2>ALWAYS TO THE TOP, ALL WAYS TOGETHER</h2>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- CLUB -->
+    <section class="spacing" id="club-section">
+      <div class="heading">
+        <h1>WE ARE PANASONIC PANTHERS</h1>
+        <p><strong>ALWAYS TO THE TOP, ALL WAYS TOGETHER</strong></p>
+      </div>
+      <div class="content">
+        <p>
+          Panasonic Panthers is an elite men's professional volleyball club based in Osaka, Japan, competing in the top-tier V. League Division 1. 
+          The team is one of the most successful in Japan, which owns seven national championships. 
+          Featuring strong Japanese national players and talented imports, the Panthers are always considered major title contenders known for their fast, coordinated play.
+        </p>
+        <div class="club">
+          <div class="item">
+            <h5>Victory</h5>
+            <img src="img/victory.jpg" alt="" />
+          </div>
+          <div class="item">
+            <h5>Game</h5>
+            <img src="img/game.jpg" alt="" />
+          </div>
+          <div class="item">
+            <h5>Celebration</h5>
+            <img src="img/celebration.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARKET -->
+    <section class="spacing" id="shop-section">
+      <div class="heading">
+        <h1>OFFICIAL PANASONIC PANTHERS MARKET</h1>
+        <p>Explore our goods</p>
+      </div>
+      <div class="shop-content">
+        <div class="shop-detail">
+          <ul>
+            <li>
+              <p>ACCESSORIES</p>
+              <p class="status-sold">Sold Out</p>
+            </li>
+            <li>
+              <p>POSTERS</p>
+              <p class="status-sold">Sold Out</p>
+            </li>
+            <li>
+              <p>OFFICIAL JERSEYS</p>
+              <p class="status-ava">3</p>
+            </li>
+          </ul>
+        </div>
+        <div class="shop-overview">
+
+          <div class="shop-jerseys">
+            <img src="img/jersey1.jpg" alt="2025-2026 Official Jersey"/>
+            <h6>[2025-2026] Official Jersey</h6>
+            <p class="price">$250.00</p>
+            <p>
+              The garment features a new pattern focused on maximizing the shoulder joint's range of motion for volleyball, achieved by using a single piece of fabric from the front to the sides and heat-pressed, stitch-free cuffs for a stress-free fit. 
+              Additionally, the club emblem utilizes a slip lacquer transfer mark on the chest to reduce friction when diving, offering a distinctive presence compared to sublimation processing.
+            </p>
+            <button data-bs-toggle="modal" data-bs-target="#modal-jersey1">Add to cart</button>
+          </div>
+
+          <div class="shop-jerseys">
+            <img src="img/jersey2.jpg" alt="2025-2026 Official Jersey"/>
+            <h6>[2025-2026] Official Jersey</h6>
+            <p class="price">$250.00</p>
+            <p>
+              The garment features a new pattern focused on maximizing the shoulder joint's range of motion for volleyball, achieved by using a single piece of fabric from the front to the sides and heat-pressed, stitch-free cuffs for a stress-free fit. 
+              Additionally, the club emblem utilizes a slip lacquer transfer mark on the chest to reduce friction when diving, offering a distinctive presence compared to sublimation processing.
+            </p>
+            <button data-bs-toggle="modal" data-bs-target="#modal-jersey2">Add to cart</button>
+          </div>
+
+          <div class="shop-jerseys">
+            <img src="img/jersey3.jpg" alt="2024-2025 Official Jersey"/>
+            <h6>[2024-2025] Official Jersey</h6>
+            <p class="price">$150.00</p>
+            <p>
+              The garment features a new pattern focused on maximizing the shoulder joint's range of motion for volleyball, achieved by using a single piece of fabric from the front to the sides and heat-pressed, stitch-free cuffs for a stress-free fit. 
+              Additionally, the club emblem utilizes a slip lacquer transfer mark on the chest to reduce friction when diving, offering a distinctive presence compared to sublimation processing.
+            </p>
+            <button data-bs-toggle="modal" data-bs-target="#modal-jersey3">Add to cart</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="modal-jersey1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLabel1">[2025-2026] Official Jersey</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name1" class="form-label">Contact Method</label>
+                <input type="text" class="form-control" id="name1" required />
+              </div>
+              <div class="mb-3">
+                <label for="email1" class="form-label">Address</label>
+                <input type="email" class="form-control" id="email1" required />
+              </div>
+              <div class="mb-3">
+                <label for="size1" class="form-label">Select Size</label>
+                <select class="form-select" id="size1" required>
+                  <option value="">Choose...</option>
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="quantity1" class="form-label">Quantity</label>
+                <input type="number" class="form-control" id="quantity1" value="1" min="1" required/>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Add to Basket</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-jersey2" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLabel2">[2025-2026] Official Jersey</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name2" class="form-label">Contact Method</label>
+                <input type="text" class="form-control" id="name2" required />
+              </div>
+              <div class="mb-3">
+                <label for="email2" class="form-label">Address</label>
+                <input type="email" class="form-control" id="email2" required />
+              </div>
+              <div class="mb-3">
+                <label for="size2" class="form-label">Select Size</label>
+                <select class="form-select" id="size2" required>
+                  <option value="">Choose...</option>
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="quantity2" class="form-label">Quantity</label>
+                <input type="number" class="form-control" id="quantity2" value="1"min="1"required/>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Add to Basket</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-jersey3" tabindex="-1" aria-labelledby="modalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLabel3">[2024-2025] Official Jersey</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name3" class="form-label">Contact Method</label>
+                <input type="text" class="form-control" id="name3" required />
+              </div>
+              <div class="mb-3">
+                <label for="email3" class="form-label">Address</label>
+                <input type="email" class="form-control" id="email3" required />
+              </div>
+              <div class="mb-3">
+                <label for="size3" class="form-label">Select Size</label>
+                <select class="form-select" id="size3" required>
+                  <option value="">Choose...</option>
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="quantity3" class="form-label">Quantity</label>
+                <input type="number" class="form-control" id="quantity3" value="1" min="1" required/>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Add to Basket</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <section class="spacing" id="contact-section">
+      <div class="heading">
+        <h1>Contact</h1>
+        <p>Find out more infomation?</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-left">
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Hirakata, Osaka, Japan</p>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <p>Phone: 0976 132 584</p>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <p>Email: panasonicpanthers@email.com</p>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form action="">
+            <div class="contact-input">
+              <input type="text" name="" id="" placeholder="Name" />
+              <input type="email" name="" id="" placeholder="Email" />
+            </div>
+            <input type="text" name="" id="" placeholder="Message" />
+            <button type="submit">SEND</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMAGE -->
+     <img src="img/logo.png" alt="" class="logo">
+    
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-icon">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-threads"></i>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="..." crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
