@@ -139,7 +139,9 @@ header nav > ul a:hover {
 
 /* CAROUSEL */
 .carousel img{
-    height: 800px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
     margin-top: 50px;
 }
 
@@ -411,7 +413,7 @@ header nav > ul a:hover {
 }
 
 /* IMAGE */
-.logo{
+.logo123{
     width: 100%;
     height: 100%;
     background-size: cover;
